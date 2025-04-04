@@ -1,0 +1,14 @@
+#---Practice on Polymorphism---
+class animal:
+  def __init__(self, name):
+    self.name = name
+class dog(animal):
+  def sound(self):
+    print(f"{self.name} says woof!")
+class cat(animal):
+  def sound(self):
+    print(f"{self.name} says meow!")
+obj = dog("JB")
+obj.sound()
+obj = cat("Mr. Buttons")
+obj.sound()
