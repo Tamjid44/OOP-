@@ -1,0 +1,10 @@
+#---Practice on Single Inheritance---
+class Shafiul_Azam:
+  def Father(self):
+    print("This is the Father of the Family")
+class Saiful_Azam(Shafiul_Azam):
+  def Son_1(self):
+    print("This is the Eldest son of the Family")
+obj = Saiful_Azam()
+obj.Father()
+obj.Son_1()
