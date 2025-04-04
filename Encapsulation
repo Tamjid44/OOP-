@@ -2,7 +2,6 @@
 class vehicle:
   def __init__(self, brand):
     self.brand= brand
-    print(f"{self.brand} is a nice car")
 class Nissan(vehicle):
   def __init__(self, brand, model):
     self.brand = brand
