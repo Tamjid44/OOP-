@@ -1,0 +1,15 @@
+#---Abstraction---
+from abc import ABC , abstractmethod
+class parent:
+  def accost(self, accost):
+    self.accost = accost
+    print(f"{self.accost} is my Father")
+class child(parent):
+  def sound(self):
+      return "Dad"
+      
+obj = child()
+obj.accost("Jack")
+obj.sound()
+child = child()
+print(child.sound())
