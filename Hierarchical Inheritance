@@ -1,0 +1,28 @@
+#---Hierarchical Inheritance---
+class grandparent:
+  def cesare_maldini(self):
+    print("This is the Grandfather")
+class son_1(grandparent):
+  def paolo_maldini(self):
+    print('This is the Eldest son of my Grandfather')
+class son_2(grandparent):
+  def pier_maldini(self):
+    print('This is the 2nd Eldest son of my Grandfather')
+class child_1(son_1):
+  def christian_maldini(self):
+    print('This is the Eldest Grandson of my Grandfather')
+class child_2(son_1):
+  def daniel_maldini(self):
+    print('This is the 2nd Eldest Grandson of my Grandfather')
+class child_3(son_2):
+  def _maldini(self):
+    print('This is the 3rd Eldest Grandson of my Grandfather')
+obj_1 = child_1()
+obj_2 = child_2()
+obj_3 = child_3()
+obj_1.cesare_maldini()
+obj_1.paolo_maldini()
+obj_3.pier_maldini()
+obj_1.christian_maldini()
+obj_2.daniel_maldini()
+obj_3._maldini()
