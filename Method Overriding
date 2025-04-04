@@ -1,0 +1,9 @@
+#---Method Overriding---
+class parent:
+  def show(self):
+      print("This the class containing PArent's info")
+class child(parent):
+  def show(self):
+    print("This the class containing children's info")
+obj = child()
+obj.show()
