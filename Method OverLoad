@@ -1,0 +1,10 @@
+#---Method Overloading---
+class eg:
+  def show(self):
+      pass
+  def show(self):
+      pass
+  def show(self):
+    print("First Method")
+obj = eg()
+obj.show()
