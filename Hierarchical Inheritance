@@ -16,7 +16,7 @@ class child_2(son_1):
     print('This is the 2nd Eldest Grandson of my Grandfather')
 class child_3(son_2):
   def _maldini(self):
-    print('This is the 3rd Eldest Grandson of my Grandfather')
+      pass
 obj_1 = child_1()
 obj_2 = child_2()
 obj_3 = child_3()
